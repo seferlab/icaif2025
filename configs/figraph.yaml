@@ -1,0 +1,305 @@
+dataset: figraph
+raw_path: data/raw/figraph/ListedCompanyFeatures.csv
+year_col: Year
+label_col: Label
+categorical_cols:
+- IndustryCodeC
+numerical_cols:
+- nodeID
+- RegisterLatitude
+- ExecutivesNumber
+- ListingAge
+- RegisterLongitude
+- IndDirectorRatio
+- Boardsize
+- Mngmhldn
+- MaleRatio
+- IndLeverageRatioMedian
+- A001112000
+- A001223000
+- SharesBalance
+- IndDirectorNetCentrality
+- C001013000
+- A001205000
+- F081601B
+- D000105000
+- Seperation
+- AverageAge
+- InefficInvestDegree
+- F030901A
+- A002210000
+- C002100000
+- A002208000
+- OwnershipProportion
+- A003103000
+- C002001000
+- TextualSimilarity
+- A001110000
+- EmotionTone2
+- A001121000
+- A001213000
+- B001302101
+- A003101000
+- C003007000
+- F060201B
+- TopTenHoldersRate
+- F030301A
+- A002112000
+- SupervisorSize
+- C001012000
+- F051701B
+- ControlProportion
+- C002002000
+- F052201B
+- BusinessYear
+- F031001A
+- F062201B
+- A002120000
+- A001222000
+- D000107000
+- LargestHolderRate
+- F040501B
+- A001221000
+- D000104000
+- C001022000
+- F033101B
+- F041601B
+- C002007000
+- A003200000
+- F081901B
+- A002125000
+- A002107000
+- F041001B
+- A003102000
+- A001125000
+- F031401A
+- F032501B
+- F031301A
+- A002113000
+- B001305000
+- F053202B
+- F032201B
+- B001500000
+- F011301A
+- F062001B
+- ContrshrProportion
+- B001400000
+- F100802A
+- F091301A
+- B001212000
+- F040201B
+- D000102000
+- D000106000
+- F061401C
+- StaffIntensity
+- C002200000
+- F031201A
+- SA
+- TargetDebtRatio
+- F011001B
+- F091401A
+- C002003000
+- F040502B
+- D000112000
+- B001210000
+- B001207000
+- A001218000
+- B001209000
+- F032701B
+- F081801B
+- F061901B
+- C001020000
+- F100801A
+- C004000000
+- F030801A
+- F030201A
+- B005000000
+- F051901B
+- F012101A
+- F041301B
+- F110101B
+- F100301B
+- D000115000
+- A002101000
+- F041401B
+- F031901A
+- F110302B
+- F052001B
+- C003002000
+- F101201B
+- A001123000
+- F051801B
+- D000109000
+- F040901B
+- F061801B
+- F040801B
+- F060901B
+- F032101B
+- B006000102
+- F082001B
+- F100201B
+- F010601A
+- MaintainInvest
+- F091402A
+- F091302A
+- F061001B
+- F041101B
+- F031501A
+- A002206000
+- ZScore
+- F100701A
+- C003005000
+- A001111000
+- F031601A
+- F062101B
+- F041402B
+- A001212000
+- IsCocurP
+- F010501A
+- D000111000
+- F080502A
+- B001302000
+- F031701A
+- A001200000
+- FixedAssetsProp
+- F061401B
+- D000114000
+- ProfitPerCapita
+- StockYield
+- C001014000
+- F081001B
+- F110701B
+- F020101
+- ExcessiveDebtDegree
+- DeleveragingDegree
+- F011501A
+- F100601B
+- F110401B
+- AddInvestExpend
+- InefficInvestSign
+- D000110000
+- F032601B
+- F032301B
+- F030601A
+- F032801B
+- A003105000
+- F031801A
+- F062401B
+- D000113000
+- F032401B
+- ConcurrentPosition
+- F050901B
+- GrowthOpportunity
+- F082302B
+- F012501B
+- D000103000
+- B002000201
+- F101202B
+- F080501A
+- A002200000
+- F041501B
+- F032001A
+- F092301B
+- A002108000
+- F010201A
+- F081501B
+- F110601B
+- F110301B
+- F101301B
+- TotalInvest
+- B001211000
+- F012701B
+- CashFlowStatus
+- F040503B
+- F061301B
+- F033501A
+- F040601B
+- F010301A
+- Profitability
+- OneControlMany
+- F010401A
+- F100101B
+- F092302B
+- F032901B
+- C001021000
+- A003000000
+- F080703B
+- F040701B
+- F082101B
+- C002006000
+- C002000000
+- F080901B
+- F070101B
+- F081203B
+- KZ
+- F012401B
+- C003200000
+- F091901B
+- F040302B
+- F100902A
+- F040803B
+- D000205000
+- F040101B
+- F081201B
+- F051601B
+- F020102
+- A001100000
+- F053301B
+- F062301B
+- F011901A
+- F040203B
+- F040202B
+- A001101000
+- F041502B
+- F061302B
+splits:
+  '0':
+    train_years:
+    - 2014
+    - 2016
+    val_years:
+    - 2017
+    - 2017
+    test_years:
+    - 2018
+    - 2018
+  '1':
+    train_years:
+    - 2014
+    - 2017
+    val_years:
+    - 2018
+    - 2018
+    test_years:
+    - 2019
+    - 2019
+  '2':
+    train_years:
+    - 2014
+    - 2018
+    val_years:
+    - 2019
+    - 2019
+    test_years:
+    - 2020
+    - 2020
+  '3':
+    train_years:
+    - 2014
+    - 2019
+    val_years:
+    - 2020
+    - 2020
+    test_years:
+    - 2021
+    - 2021
+  '4':
+    train_years:
+    - 2014
+    - 2020
+    val_years:
+    - 2021
+    - 2021
+    test_years:
+    - 2022
+    - 2022

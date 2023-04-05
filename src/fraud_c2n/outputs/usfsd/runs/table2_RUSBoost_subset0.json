@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 0,
+  "method": "RUSBoost",
+  "auc_roc": 0.7118756251103135,
+  "auc_pr": 0.0229350240628731,
+  "f1_macro": 0.4853758628315595,
+  "recall_macro": 0.5845994881449668
+}

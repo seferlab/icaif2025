@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 0,
+  "method": "DeepCrossing",
+  "auc_roc": 0.4308284795356043,
+  "auc_pr": 0.029536987530255444,
+  "f1_macro": 0.5362538768276474,
+  "recall_macro": 0.5321723441391618
+}

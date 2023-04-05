@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 0,
+  "method": "GCE+MLP",
+  "auc_roc": 0.3646476829244376,
+  "auc_pr": 0.011466826104805487,
+  "f1_macro": 0.497099133944337,
+  "recall_macro": 0.5
+}

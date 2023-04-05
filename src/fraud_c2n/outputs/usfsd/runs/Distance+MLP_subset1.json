@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 1,
+  "method": "Distance+MLP",
+  "auc_roc": 0.3432739254947067,
+  "auc_pr": 0.007564195300818169,
+  "f1_macro": 0.4975444538526672,
+  "recall_macro": 0.5
+}

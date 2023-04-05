@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 0,
+  "method": "Label+MLP",
+  "auc_roc": 0.3154184071698928,
+  "auc_pr": 0.008029671675259455,
+  "f1_macro": 0.497099133944337,
+  "recall_macro": 0.5
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 5,
+  "method": "Distance+XGBoost",
+  "auc_roc": 0.6534812305488997,
+  "auc_pr": 0.12536903479797246,
+  "f1_macro": 0.49883907840685837,
+  "recall_macro": 0.5
+}

@@ -1,0 +1,6 @@
+emb_dim: 32
+k_list:
+- 8
+- 16
+- 32
+pca_dim: 32

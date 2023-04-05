@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: fraud-c2n-runner
-Version: 0.1.0
-Summary: Experiment runner and plotting for fraud C2N paper
-Requires-Python: >=3.10

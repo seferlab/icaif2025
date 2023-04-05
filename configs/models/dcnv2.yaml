@@ -1,0 +1,11 @@
+cross_layers: 3
+low_rank: 32
+num_experts: 4
+deep_dims: [256, 128]
+dropout: 0.1
+lr: 0.001
+weight_decay: 0.0001
+batch_size: 2048
+max_epochs: 200
+patience: 25
+seed: 42

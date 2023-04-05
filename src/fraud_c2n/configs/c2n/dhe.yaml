@@ -1,0 +1,6 @@
+emb_dim: 32
+n_hashes: 4
+n_buckets: 20000
+epochs: 20
+lr: 0.001
+hidden_dim: 64

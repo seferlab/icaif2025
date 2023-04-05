@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 2,
+  "method": "CatBoost",
+  "auc_roc": 1.0,
+  "auc_pr": 1.0,
+  "f1_macro": 0.9944625207195039,
+  "recall_macro": 0.9999140598143692
+}

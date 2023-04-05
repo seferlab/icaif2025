@@ -1,0 +1,15 @@
+n_d: 32
+n_a: 32
+n_steps: 5
+gamma: 1.5
+lambda_sparse: 0.0001
+optimizer_fn: adam
+optimizer_params:
+  lr: 0.02
+mask_type: sparsemax
+max_epochs: 200
+patience: 30
+batch_size: 2048
+virtual_batch_size: 256
+num_workers: 0
+seed: 42

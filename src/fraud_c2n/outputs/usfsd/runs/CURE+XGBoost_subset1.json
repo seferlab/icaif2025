@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 1,
+  "method": "CURE+XGBoost",
+  "auc_roc": 0.7483040304218211,
+  "auc_pr": 0.27504397506960904,
+  "f1_macro": 0.4975444538526672,
+  "recall_macro": 0.5
+}

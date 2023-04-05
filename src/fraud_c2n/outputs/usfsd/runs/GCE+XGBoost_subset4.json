@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 4,
+  "method": "GCE+XGBoost",
+  "auc_roc": 1.0,
+  "auc_pr": 1.0,
+  "f1_macro": 1.0,
+  "recall_macro": 1.0
+}

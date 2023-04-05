@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 1,
+  "method": "DHE+MLP",
+  "auc_roc": 0.4130683552029295,
+  "auc_pr": 0.010856307927082627,
+  "f1_macro": 0.4975444538526672,
+  "recall_macro": 0.5
+}

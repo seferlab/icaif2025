@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 3,
+  "method": "Helmert+MLP",
+  "auc_roc": 0.5840232108317215,
+  "auc_pr": 0.07413241671686682,
+  "f1_macro": 0.4985996775014852,
+  "recall_macro": 0.5
+}

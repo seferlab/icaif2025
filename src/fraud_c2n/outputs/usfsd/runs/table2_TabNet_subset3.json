@@ -1,0 +1,9 @@
+{
+  "dataset": "usfsd",
+  "subset": 3,
+  "method": "TabNet",
+  "auc_roc": 0.6490212765957448,
+  "auc_pr": 0.012087476251055756,
+  "f1_macro": 0.4985996775014852,
+  "recall_macro": 0.5
+}
