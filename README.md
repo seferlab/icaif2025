@@ -1,6 +1,4 @@
-# fraud-c2n-repro
- 
- **"Financial Statement Fraud Detection with a Categorical-to-Numerical Data Representation".
+**"Financial Statement Fraud Detection with a Categorical-to-Numerical Data Representation".
 
 This repo implements:
 - Chronological splits (Table 1)
