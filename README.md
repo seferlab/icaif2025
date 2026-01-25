@@ -9,8 +9,6 @@ generate **tables/plots** from the results.
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-xxx
-
 # Create toy data (for smoke tests)
 python -m fraud.tools.make_toy_data --out-dir data
 
