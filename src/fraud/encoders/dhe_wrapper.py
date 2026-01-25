@@ -48,7 +48,7 @@ class DHEWrapper(BaseEncoder):
     a small MLP to produce embeddings. For use with downstream non-neural
     classifiers (e.g., XGBoost), we train a light supervised head on the
     training split and then export per-category embeddings as numeric codes.
-    See Sec. 4.4. fileciteturn5file1L507-L600
+    See Sec. 4.4. 
     """
 
     def __init__(

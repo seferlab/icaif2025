@@ -21,7 +21,7 @@ class DistanceEmbeddingWrapper(BaseEncoder):
     Implementation mirrors the paper summary in Sec. 4.3: build a d-partite
     co-occurrence graph with Jaccard-like weights, define multiple base
     distances, compute transitive (shortest-path) distances, then embed with
-    classical MDS. fileciteturn5file1L395-L506
+    classical MDS. 
     """
 
     def __init__(

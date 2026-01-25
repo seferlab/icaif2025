@@ -32,7 +32,7 @@ class _GCEDiffPoolAE(nn.Module):
 
     This is a pragmatic implementation aligned with the paper summary: build
     co-occurrence adjacency, apply GCN, learn soft assignment S, pool, and
-    reconstruct adjacency. fileciteturn5file1L324-L395
+    reconstruct adjacency. 
     """
 
     def __init__(self, n_nodes: int, in_dim: int, hid: int, emb_dim: int, n_clusters: int):

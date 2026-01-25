@@ -20,7 +20,7 @@ class CUREWrapper(BaseEncoder):
     """Practical implementation of the CURE-style hierarchical coupling encoder.
 
     This follows the paper's high-level stages (value coupling -> multi-granularity
-    clustering -> PCA fusion -> per-object representation). See Sec. 4.1. fileciteturn5file1L213-L317
+    clustering -> PCA fusion -> per-object representation). See Sec. 4.1. 
     """
 
     def __init__(
