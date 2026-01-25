@@ -1,0 +1,34 @@
+dataset: usfsd
+time_column: year
+label_column: label
+subsets:
+  - id: 0
+    train_years: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+    val_years:   [2000, 2001]
+    test_years:  [2003]
+    counts: {train: 54052, val: 13114, test: 5981}
+  - id: 1
+    train_years: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000]
+    val_years:   [2001, 2002]
+    test_years:  [2004]
+    counts: {train: 60804, val: 12429, test: 5934}
+  - id: 2
+    train_years: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001]
+    val_years:   [2002, 2003]
+    test_years:  [2005]
+    counts: {train: 67166, val: 12048, test: 5863}
+  - id: 3
+    train_years: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002]
+    val_years:   [2003, 2004]
+    test_years:  [2006]
+    counts: {train: 73233, val: 11915, test: 5908}
+  - id: 4
+    train_years: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003]
+    val_years:   [2004, 2005]
+    test_years:  [2007]
+    counts: {train: 79214, val: 11797, test: 5868}
+  - id: 5
+    train_years: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004]
+    val_years:   [2005, 2006]
+    test_years:  [2008]
+    counts: {train: 85148, val: 11771, test: 5612}
